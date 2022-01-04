@@ -1,8 +1,11 @@
-import './App.css'
+import './App.scss'
+import background from './img/bgi.jpg'
 
 function App () {
+  console.log('top')
+
   return (
-    <div className="App">
+    <div className="app" style={{ backgroundImage: `url(${background})` }}>
       hello world
     </div>
   )
