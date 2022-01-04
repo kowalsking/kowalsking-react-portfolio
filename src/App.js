@@ -1,12 +1,11 @@
 import './App.scss'
 import background from './img/bgi.jpg'
+import FirstLine from './components/FirstLine.jsx'
 
 function App () {
-  console.log('top')
-
   return (
     <div className="app" style={{ backgroundImage: `url(${background})` }}>
-      hello world
+      <FirstLine />
     </div>
   )
 }

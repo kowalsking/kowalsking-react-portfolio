@@ -17,3 +17,54 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.logo {
+  width: 50px;
+  margin-left: 45px;
+  position: fixed;
+}
+
+.top-line {
+  padding-top: 40px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 45px;
+  }
+
+  ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+  }
+
+  li {
+    transition: all .3s ease;
+    float: left;
+    padding: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #99d9ea;
+    transition: all .3s ease;
+  }
+
+  li:hover {
+    transition: all .3s ease;
+    cursor: pointer;
+    a {
+      color: #00A2E8;
+      transition: all .3s ease;
+    }
+  }
+}
