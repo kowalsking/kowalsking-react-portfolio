@@ -20,6 +20,17 @@ body {
 .logo {
   width: 50px;
   margin-left: 45px;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 // first line
